@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c5a076e4-8992-463b-baea-763e7c137dae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ant-design-vue-jeecg/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ant-design-vue-jeecg/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/jeecg-boot" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files\repository_maven" />
+        <option name="mavenHome" value="D:\Program Files\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1rBe3OQHyQFow1rSiEiC4prOf0B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jeecg-boot/jeecg-boot-module-system/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\gitData\wangfuj\jeecg-boot\jeecg-boot\jeecg-boot-module-system\src\main\resources" />
+      <recent name="E:\gitData\wangfuj\jeecg-boot\jeecg-boot\jeecg-boot-module-system\src\main\java\org\jeecg\modules\demo" />
+      <recent name="E:\gitData\wangfuj\jeecg-boot\ant-design-vue-jeecg\src\views" />
+      <recent name="E:\gitData\wangfuj\jeecg-boot\ant-design-vue-jeecg\src\views\demonstration" />
+      <recent name="E:\gitData\wangfuj\jeecg-boot\jeecg-boot\jeecg-boot-module-system\src\main\java\org\jeecg\modules\demonstration" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.jeecg.modules.rdata.util" />
+      <recent name="org.jeecg.modules.rdata.vo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.JeecgApplication">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jeecg.modules.rdata.util.test" />
+      <module name="jeecg-boot-module-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jeecg.modules.rdata.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.getesdata" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jeecg-boot-module-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jeecg.modules.rdata.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.jeecg.modules.rdata.util" />
+      <option name="MAIN_CLASS_NAME" value="org.jeecg.modules.rdata.util.test" />
+      <option name="METHOD_NAME" value="getesdata" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JeecgApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="jeecg-boot-module-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jeecg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.jeecg.JeecgApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/ant-design-vue-jeecg/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/ant-design-vue-jeecg/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.JeecgApplication" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="npm.serve" />
+        <item itemvalue="JUnit.test.getesdata" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5a076e4-8992-463b-baea-763e7c137dae" name="Default Changelist" comment="" />
+      <created>1618453711288</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618453711288</updated>
+      <workItem from="1618453714903" duration="12696000" />
+      <workItem from="1618987747432" duration="16594000" />
+      <workItem from="1619090642787" duration="4224000" />
+      <workItem from="1619232940274" duration="18301000" />
+      <workItem from="1619575216294" duration="7161000" />
+      <workItem from="1620272091463" duration="958000" />
+      <workItem from="1620453187226" duration="996000" />
+      <workItem from="1620819099617" duration="732000" />
+      <workItem from="1622432704058" duration="7225000" />
+      <workItem from="1622508579805" duration="2895000" />
+      <workItem from="1622625009348" duration="594000" />
+      <workItem from="1623749900130" duration="1163000" />
+      <workItem from="1623752753350" duration="734000" />
+      <workItem from="1624501148854" duration="6785000" />
+      <workItem from="1624518352362" duration="9586000" />
+      <workItem from="1624686601893" duration="40157000" />
+      <workItem from="1625122477672" duration="9116000" />
+      <workItem from="1625456810100" duration="736000" />
+      <workItem from="1625709693826" duration="1444000" />
+      <workItem from="1625711920179" duration="21673000" />
+      <workItem from="1625926698949" duration="916000" />
+      <workItem from="1626061462642" duration="2586000" />
+      <workItem from="1626144941892" duration="1803000" />
+      <workItem from="1626683816138" duration="23034000" />
+      <workItem from="1626832432713" duration="5356000" />
+      <workItem from="1627036835151" duration="642000" />
+      <workItem from="1627037606439" duration="1216000" />
+      <workItem from="1627264137706" duration="20682000" />
+      <workItem from="1627382102875" duration="648000" />
+      <workItem from="1627384838171" duration="11177000" />
+      <workItem from="1627889780983" duration="701000" />
+      <workItem from="1628069762782" duration="1882000" />
+      <workItem from="1628499011995" duration="29128000" />
+      <workItem from="1628670390794" duration="13553000" />
+      <workItem from="1628833629836" duration="1720000" />
+      <workItem from="1629012746906" duration="12113000" />
+      <workItem from="1629198852655" duration="14096000" />
+      <workItem from="1629614660071" duration="34387000" />
+      <workItem from="1630054393541" duration="11632000" />
+      <workItem from="1630658017177" duration="3043000" />
+      <workItem from="1630903319535" duration="8146000" />
+      <workItem from="1631506757147" duration="13044000" />
+      <workItem from="1631598003375" duration="17931000" />
+      <workItem from="1632275372247" duration="20247000" />
+      <workItem from="1632713855599" duration="11677000" />
+      <workItem from="1633679421467" duration="10975000" />
+      <workItem from="1633949294292" duration="83000" />
+      <workItem from="1634194865290" duration="15983000" />
+      <workItem from="1634615311507" duration="11765000" />
+      <workItem from="1634694569231" duration="612000" />
+      <workItem from="1634867736971" duration="655000" />
+      <workItem from="1635746538440" duration="2118000" />
+      <workItem from="1637058315616" duration="867000" />
+      <workItem from="1637663831270" duration="4867000" />
+      <workItem from="1637834894022" duration="3816000" />
+      <workItem from="1637897995087" duration="492000" />
+      <workItem from="1637905216137" duration="10373000" />
+      <workItem from="1638410112996" duration="4696000" />
+      <workItem from="1639114770119" duration="2769000" />
+      <workItem from="1639622864998" duration="5076000" />
+      <workItem from="1639642702958" duration="12000" />
+      <workItem from="1639650031286" duration="1446000" />
+      <workItem from="1639879734256" duration="1791000" />
+      <workItem from="1639899332696" duration="3843000" />
+      <workItem from="1640242609732" duration="1994000" />
+      <workItem from="1639369842147" duration="1540000" />
+      <workItem from="1641545637684" duration="684000" />
+      <workItem from="1642039741920" duration="634000" />
+      <workItem from="1642765215180" duration="319000" />
+      <workItem from="1643082502382" duration="594000" />
+      <workItem from="1644202931601" duration="26000" />
+      <workItem from="1644202972552" duration="4360000" />
+      <workItem from="1644304315334" duration="4349000" />
+      <workItem from="1645163963717" duration="593000" />
+      <workItem from="1647498979951" duration="6905000" />
+      <workItem from="1647587436465" duration="2747000" />
+      <workItem from="1648884150289" duration="1934000" />
+      <workItem from="1650785635552" duration="606000" />
+      <workItem from="1653270404901" duration="939000" />
+      <workItem from="1654830180466" duration="103000" />
+      <workItem from="1654938590790" duration="1378000" />
+      <workItem from="1655513904484" duration="67000" />
+      <workItem from="1657265680183" duration="2789000" />
+      <workItem from="1657528088584" duration="455000" />
+      <workItem from="1657528579964" duration="8000" />
+      <workItem from="1658128572813" duration="414000" />
+      <workItem from="1658129315929" duration="437000" />
+      <workItem from="1658151878144" duration="815000" />
+      <workItem from="1659525218920" duration="900000" />
+      <workItem from="1659526657758" duration="8000" />
+      <workItem from="1659526695519" duration="13000" />
+      <workItem from="1659527048968" duration="636000" />
+      <workItem from="1659527714996" duration="665000" />
+      <workItem from="1659960319812" duration="87000" />
+      <workItem from="1659960424470" duration="678000" />
+      <workItem from="1660010047929" duration="594000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:E:/gitData/wangfuj/jeecg-boot/jeecg-boot/jeecg-boot-module-system/src/main/resources" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jeecg-boot/jeecg-boot-module-system/src/main/java/org/jeecg/modules/rdata/util/ElasticsearchUtil.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jeecg-boot/jeecg-boot-module-system/src/main/java/org/jeecg/modules/rdata/controller/StrDdDocController.java</url>
+          <line>206</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jeecg-boot/jeecg-boot-module-system/src/main/java/org/jeecg/modules/rdata/controller/StrRkDocController.java</url>
+          <line>208</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jeecg-boot/jeecg-boot-module-system/src/main/java/org/jeecg/modules/rdata/controller/StrDdDocController.java</url>
+          <line>175</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jeecg-boot/jeecg-boot-module-system/src/main/java/org/jeecg/modules/rdata/service/impl/StrRkDocServiceImpl.java</url>
+          <line>178</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/jeecg-boot/jeecg-boot-module-system/src/main/java/org/jeecg/modules/rdata/service/IStrDdDocService.java</url>
+          <line>20</line>
+          <properties class="org.jeecg.modules.rdata.service.IStrDdDocService" method="checkAndput" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.jeecg.modules.rdata.vo.QueryDdDoc" memberName="storeCode" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

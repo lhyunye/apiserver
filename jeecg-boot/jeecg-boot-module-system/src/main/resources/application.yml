@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    #strpro 供应链生产环境配置文件 strdev 供应链测试环境  inv 小票配置文件
+    active: strdev
+swagger:
+  production: false
+  basic:
+    enable: false
+    username: jeecg
+    password: jeecg1314

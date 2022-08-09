@@ -1,0 +1,213 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>jeecg-boot-module-system</artifactId>
+	<version>2.1.4</version>
+
+	<parent>
+		<groupId>org.jeecgframework.boot</groupId>
+		<artifactId>jeecg-boot-parent</artifactId>
+		<version>2.1.4</version>
+
+	</parent>
+
+
+
+	<repositories>
+		<repository>
+			<id>aliyun</id>
+			<name>aliyun Repository</name>
+			<url>http://maven.aliyun.com/nexus/content/groups/public</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>jeecg</id>
+			<name>jeecg Repository</name>
+			<url>http://maven.jeecg.org/nexus/content/repositories/jeecg</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.jeecgframework.boot</groupId>
+			<artifactId>jeecg-boot-base-common</artifactId>
+
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.elasticsearch</groupId>
+			<artifactId>elasticsearch</artifactId>
+			<version>6.4.2</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.apache.logging.log4j</groupId>
+					<artifactId>log4j-api</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.elasticsearch.client/transport -->
+		<dependency>
+			<groupId>org.elasticsearch.client</groupId>
+			<artifactId>transport</artifactId>
+			<version>6.4.2</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.elasticsearch</groupId>
+					<artifactId>elasticsearch</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<!-- AutoPoi Excel工具类-->
+
+		<dependency>
+			<groupId>cn.afterturn</groupId>
+			<artifactId>easypoi-spring-boot-starter</artifactId>
+			<version>4.2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>4.0.0</version>
+		</dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>28.2-android</version>
+        </dependency>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>26.0-jre</version>
+			<scope>compile</scope>
+		</dependency>
+
+
+		<!-- log start -->
+
+		<dependency>
+
+			<groupId>org.apache.logging.log4j</groupId>
+
+			<artifactId>log4j-api</artifactId>
+
+			<version>2.15.0</version>
+
+		</dependency>
+
+		<dependency>
+
+			<groupId>org.apache.logging.log4j</groupId>
+
+			<artifactId>log4j-core</artifactId>
+
+			<version>2.15.0</version>
+
+		</dependency>
+
+		<dependency>
+
+			<groupId>org.apache.logging.log4j</groupId>
+
+			<artifactId>log4j-to-slf4j</artifactId>
+
+			<version>2.15.0</version>
+
+		</dependency>
+
+
+
+	</dependencies>
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+
+			</plugin>
+
+
+<!--			<plugin>-->
+<!--				<artifactId>maven-resources-plugin</artifactId>-->
+<!--				<executions>-->
+<!--					<execution>-->
+<!--						<id>copy-resources</id>-->
+<!--						<phase>package</phase>-->
+<!--						<goals>-->
+<!--							<goal>copy-resources</goal>-->
+<!--						</goals>-->
+
+<!--						<configuration>-->
+<!--							<outputDirectory>-->
+<!--								src/main/resources-->
+<!--							</outputDirectory>-->
+
+<!--							<resources>-->
+<!--								<resource>-->
+<!--									<directory>src/main/resources</directory>-->
+<!--									<filtering>true</filtering>-->
+<!--									<excludes>-->
+<!--										<exclude>star.wfj.com.cn.jks</exclude>-->
+<!--									</excludes>-->
+<!--								</resource>-->
+<!--								<resource>-->
+<!--									<directory>src/main/resources</directory>-->
+<!--									<filtering>false</filtering>-->
+<!--									<includes>-->
+<!--										<include>star.wfj.com.cn.jks</include>-->
+<!--									</includes>-->
+<!--								</resource>-->
+
+<!--							</resources>-->
+
+
+
+
+<!--						</configuration>-->
+<!--					</execution>-->
+<!--				</executions>-->
+<!--			</plugin>-->
+
+
+		</plugins>
+<!--<resources>-->
+<!--	<resource>-->
+<!--		<directory>src/main/resources</directory>-->
+<!--		<filtering>true</filtering>-->
+<!--		<excludes>-->
+<!--			<exclude>star.wfj.com.cn.jks</exclude>-->
+<!--		</excludes>-->
+<!--	</resource>-->
+<!--	<resource>-->
+<!--		<directory>src/main/resources</directory>-->
+<!--		<filtering>false</filtering>-->
+<!--		<includes>-->
+<!--			<include>star.wfj.com.cn.jks</include>-->
+<!--		</includes>-->
+<!--	</resource>-->
+<!--	<resource>-->
+<!--		<directory>src/main/java</directory>-->
+<!--		<includes>-->
+<!--			<include>**/*.xml</include>-->
+<!--			<include>**/*.json</include>-->
+<!--			<include>**/*.ftl</include>-->
+<!--		</includes>-->
+<!--	</resource>-->
+<!--</resources>-->
+
+	</build>
+</project>
